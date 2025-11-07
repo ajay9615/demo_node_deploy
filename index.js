@@ -13,7 +13,7 @@ app.post('/insert', (req, res) => {
             console.error(err);
             res.status(500).send('Error inserting data');
         } else {
-            res.send('✅ Data inserted successfully');
+            res.send('Data inserted successfully');
         }
     });
 });
